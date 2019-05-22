@@ -1,2 +1,2 @@
-# stack-views-layout
-Creates a calculator using stack views layout.
+# Calculator
+An attempt to copy the mac OS calculator. :)

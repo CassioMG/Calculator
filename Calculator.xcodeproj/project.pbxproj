@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B888E432260BB0300DC5113 /* Stack Views Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack Views Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B888E432260BB0300DC5113 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B888E462260BB0400DC5113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B888E482260BB0400DC5113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B888E4B2260BB0400DC5113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		7B888E3A2260BB0300DC5113 = {
 			isa = PBXGroup;
 			children = (
-				7B888E452260BB0300DC5113 /* Stack Views Layout */,
+				7B888E452260BB0300DC5113 /* Calculator */,
 				7B888E442260BB0300DC5113 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		7B888E442260BB0300DC5113 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B888E432260BB0300DC5113 /* Stack Views Layout.app */,
+				7B888E432260BB0300DC5113 /* Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B888E452260BB0300DC5113 /* Stack Views Layout */ = {
+		7B888E452260BB0300DC5113 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				7B888E462260BB0400DC5113 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				7B888E4F2260BB0500DC5113 /* LaunchScreen.storyboard */,
 				7B888E522260BB0500DC5113 /* Info.plist */,
 			);
-			path = "Stack Views Layout";
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B888E422260BB0300DC5113 /* Stack Views Layout */ = {
+		7B888E422260BB0300DC5113 /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B888E552260BB0500DC5113 /* Build configuration list for PBXNativeTarget "Stack Views Layout" */;
+			buildConfigurationList = 7B888E552260BB0500DC5113 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				7B888E3F2260BB0300DC5113 /* Sources */,
 				7B888E402260BB0300DC5113 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Stack Views Layout";
+			name = Calculator;
 			productName = "Stack Views Layout";
-			productReference = 7B888E432260BB0300DC5113 /* Stack Views Layout.app */;
+			productReference = 7B888E432260BB0300DC5113 /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B888E3E2260BB0300DC5113 /* Build configuration list for PBXProject "Stack Views Layout" */;
+			buildConfigurationList = 7B888E3E2260BB0300DC5113 /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B888E422260BB0300DC5113 /* Stack Views Layout */,
+				7B888E422260BB0300DC5113 /* Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 483MJDY6SJ;
-				INFOPLIST_FILE = "Stack Views Layout/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cmg.Stack-Views-Layout";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmg.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 483MJDY6SJ;
-				INFOPLIST_FILE = "Stack Views Layout/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cmg.Stack-Views-Layout";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmg.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B888E3E2260BB0300DC5113 /* Build configuration list for PBXProject "Stack Views Layout" */ = {
+		7B888E3E2260BB0300DC5113 /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B888E532260BB0500DC5113 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B888E552260BB0500DC5113 /* Build configuration list for PBXNativeTarget "Stack Views Layout" */ = {
+		7B888E552260BB0500DC5113 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B888E562260BB0500DC5113 /* Debug */,
