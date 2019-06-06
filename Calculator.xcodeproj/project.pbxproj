@@ -48,8 +48,8 @@
 		7B35616622A99579002516D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7B888E4A2260BB0400DC5113 /* Main.storyboard */,
 				7B888E4D2260BB0500DC5113 /* Assets.xcassets */,
+				7B888E4A2260BB0400DC5113 /* Main.storyboard */,
 				7B888E4F2260BB0500DC5113 /* LaunchScreen.storyboard */,
 			);
 			path = View;
